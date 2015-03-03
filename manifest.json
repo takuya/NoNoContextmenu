@@ -1,0 +1,38 @@
+{
+     "manifest_version": 2,
+
+     "name": "NoNoContextMenu",
+     "description": " This Extension disables disable of contextmenu for Many of Banks,",
+     "version": "1.0",
+
+     "content_scripts": [
+     {
+          "matches": [
+               "https://*.shinseibank.com/*",
+               "https://*.jibunbank.co.jp/*",
+               "https://*.jp-bank.japanpost.jp/*"
+           ],
+          "js": ["NoNoContextMenu.js"],
+          "run_at": "document_idle"
+     },
+     {
+
+          "matches": [
+          "https://*.jibunbank.co.jp/*"
+           ],
+          "js": ["NoNoSetTimeOut.js"],
+          "run_at": "document_end"
+     },
+     {
+
+          "matches": [
+               "https://*.jibunbank.co.jp/*",
+               "https://*.jp-bank.japanpost.jp/*"
+           ],
+          "js": ["NoNoEnterSubmit.js"],
+          "run_at": "document_end"
+     }
+
+     ]
+
+}
