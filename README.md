@@ -1,24 +1,20 @@
 # About  NoNoPastes
 
-Chrome Extension: NoNoPastes
+Chrome Extension: NoNoContextMenu
 
-This Extension disables disabling cut/paste/copy.
+This Extension disables disabling contextmenu. and timeouts
 
 ## What is 
 
-We are getting annoyed. Pressing Ctrl+V result no action ...  
+We are getting annoyed. Pressing Mouse Rigtbutton result no action ...  
 Why we  mustinput mail address over again and again.
 
 
-Many Japanese sites send me e-mail in the process of registration.
-Wrong mail address would be found  by no mail recive.
+Many of Banks prevent right-click in thire sites.
 
-So  oncopy="return false" onpaste="return false" oncontextmenu="return false" in registration is USELESS.
+But, I dare want to use ContextMenu for installed Extensions.
 
-I wrote disable oncopy/onpaste/oncontextmenu .
-
-
-
+soso
 
 
 
