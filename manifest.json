@@ -13,7 +13,8 @@
                "https://*.jp-bank.japanpost.jp/*"
            ],
           "js": ["NoNoContextMenu.js"],
-          "run_at": "document_idle"
+          "run_at": "document_idle",
+          "all_frames": true
      },
      {
 
